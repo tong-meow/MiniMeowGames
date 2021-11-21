@@ -1,0 +1,56 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: rgb(79, 63, 107); */
+    background-image: url("resources/pagebg.jpg");
+    background-size: cover;
+}
+
+h1{
+    color:white;
+    width: 30%;
+    text-align: center;
+    margin: 1.5em auto;
+}
+
+p{
+    color:white;
+    width: 700px;
+    font-size: large;
+    margin: auto auto 1em auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lives{
+    text-align: left;
+}
+
+#score{
+    padding: 0 20px;
+}
+
+#restart{
+    color: purple;
+    text-align: right;
+    border: 1px solid rgb(228, 219, 228);
+    background-color: rgb(228, 219, 228);
+    padding: 5px 2em;
+    font-size: large;
+}
+
+#restart:hover{
+    transition: 0.3s;
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(228, 219, 228);
+    transform: translateY(-0.1em);
+    cursor:pointer;
+}
+
+canvas{
+    border: 2px solid black; 
+    margin: 1em auto; 
+    display:flex; 
+    justify-content: center;
+    background-image: url(resources/background.jpg);
+    opacity: 0.9;
+    background-size: contain;
+}
